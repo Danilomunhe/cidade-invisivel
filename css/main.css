@@ -17,6 +17,7 @@ main p {
   width: 800px;
   font-size: 1.5rem;
   font-weight: 100;
+  margin-top: 13px;
 }
 main a {
   width: 200px;
@@ -30,6 +31,7 @@ main a {
   border-radius: 5px;
   font-size: 1.5rem;
   transition: all 0.6s;
+  margin-top: 40px;
 }
 main a:hover {
   color: #fff;
