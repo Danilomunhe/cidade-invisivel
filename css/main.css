@@ -6,6 +6,7 @@ main {
   padding: 0 80px;
   color: #fff;
   font-family: "Opens Sans", sans-serif;
+  z-index: -1;
 }
 main h2 {
   font-size: 2.25rem;
