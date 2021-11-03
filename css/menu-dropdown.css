@@ -2,7 +2,6 @@
   display: flex;
   gap: 2px;
   font-family: "Roboto", sans-serif;
-  z-index: 99999;
 }
 .dropdown-menu li {
   width: 150px;
