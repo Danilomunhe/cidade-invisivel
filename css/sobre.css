@@ -1,0 +1,41 @@
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quemSouEu {
+  background-color: #00000080;
+  background-blend-mode: darken;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+h2 {
+  font-size: 3.2rem;
+  padding: 70px;
+}
+
+p {
+  width: 400px;
+  margin-top: 50px;
+  font-size: 1.6rem;
+  text-align: justify;
+}
+.conhecimentos {
+  background-color: red;
+  width: 50%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.conhecimentos li {
+  list-style: none;
+  font-size: 1.6rem;
+}
