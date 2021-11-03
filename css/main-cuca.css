@@ -34,7 +34,7 @@ main p {
 .textos {
   display: flex;
   flex-direction: row;
-  width: 600px;
+  width: 700px;
   margin-bottom: 50px;
 }
 .informações {
