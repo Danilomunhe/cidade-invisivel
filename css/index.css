@@ -3,6 +3,7 @@ body {
   height: 100vh;
   background-image: url(../img/cidade.jpg);
   background-position: right top;
+  background-repeat: no-repeat;
   background-size: cover;
   background-color: #00000080;
   background-blend-mode: darken;

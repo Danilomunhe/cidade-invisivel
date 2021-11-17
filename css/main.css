@@ -42,3 +42,28 @@ main a:hover {
   border: 1px solid #ffb905;
   cursor: pointer;
 }
+
+@media (max-width: 720px) {
+  main {
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 55px;
+  }
+  main p {
+    display: none;
+  }
+  main h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  main h1 {
+    font-size: 4.5rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 3.5rem;
+  }
+  main h1 span {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+}
