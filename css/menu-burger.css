@@ -26,16 +26,16 @@
   transform: translateY(10px);
 }
 
-.menu-burger-container:active .menu-burger {
+.menu-burger-container.active .menu-burger {
   background-color: transparent;
 }
-.menu-burger-container:active .menu-burger::before {
+.menu-burger-container.active .menu-burger::before {
   transform: rotate(45deg);
 }
-.menu-burger-container:active .menu-burger::after {
+.menu-burger-container.active .menu-burger::after {
   transform: rotate(-45deg);
 }
-.menu-burger-container:active ~ .menu {
+.menu-burger-container.active ~ .menu {
   display: flex;
 }
 @media (max-width: 720px) {
